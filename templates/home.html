@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Assignment Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Student Assignment Tracker</h1>
+    <a href="{{ url_for('add_asgmt') }}">Add Assignment</a>
+    <a href="{{ url_for('view_asgmt') }}">View Assignments</a>
+    <a href="{{ url_for('completed_asgmt') }}">Completed Assignments</a>
+</body>
+</html>
